@@ -15,14 +15,14 @@ CREATE TABLE MarketData (
 
 SELECT * FROM ecommerce_dataset;
 
-SELECT COUNT(*) AS total_records FROM ecommerce_dataset;
+SELECT COUNT(*) AS total_Records FROM ecommerce_dataset;
 
-SELECT SUM(quantity * Sales) AS total_sales FROM ecommerce_dataset;
+SELECT SUM(quantity * Sales) AS total_Sales FROM ecommerce_dataset;
 
-SELECT AVG(Sales) AS average_price FROM ecommerce_dataset;
+SELECT AVG(Sales) AS ave_Price FROM ecommerce_dataset;
 
 SELECT * FROM ecommerce_dataset WHERE quantity > 4;
-	
+
 
 
 
