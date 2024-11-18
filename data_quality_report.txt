@@ -1,0 +1,21 @@
+Data Quality Report:
+
+Missing Values:
+Aging             1
+Sales             1
+Quantity          2
+Discount          1
+Shipping_Cost     1
+Order_Priority    2
+dtype: int64
+
+Duplicate Rows: 0
+
+Outliers Detected:
+Aging: 0 rows
+Customer_Id: 0 rows
+Sales: 0 rows
+Quantity: 0 rows
+Discount: 0 rows
+Profit: 0 rows
+Shipping_Cost: 0 rows
